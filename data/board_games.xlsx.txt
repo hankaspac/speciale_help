@@ -1,0 +1,45 @@
+Title	Year	Max_players	Type	Coop	Campagne	Rating_avg	Nr_boxes
+An Age Contrived	2024		Fantasy	No		5.64	2
+Andromeda's Edge: Deluxe Edition	2024		Sci-Fi	No		6.269	1
+Arydia: The Paths We Dare Tread	2025		Fantasy	Yes		7.088	1
+Assassin's Creed: Brotherhood of Venice	2021		Fantasy	Yes		5.79	3
+Bantam West	2023		West	Yes		5.681	1
+The Castles of Burgundy: Special Edition	2023		Fantasy	No		8.49	1
+Chronicles of Drunagor: Age of Darkness	2021		Fantasy	Yes		5.70	7
+Core Space: First Born	2021		Sci-Fi	No		5.768	1
+The Crew: The Quest for Planet Nine	2019		Sci-Fi	Yes		7.613	1
+Cthulhu: Death May Die	2024		Fantasy	Yes		6.02	6
+D.E.I.: Divide et Impera	2022		Sci-Fi	No		5.62	9
+Decrypto	2018		Other	No		7.548	1
+Deep Rock Galactic	2022		Sci-Fi	Yes		6.11	2
+Destinies	2021		Fantasy	Yes		5.97	7
+Divinus: Chest of Plenty	2024		Fantasy	Yes		N/A	1
+Doomlings: Deluxe Bundle	2022		Other	No		5.59	2
+Elden Ring	2025		Fantasy	Yes		5.51	5
+Eldritch Horror	2013		Fantasy	Yes		7.492	1
+Endless Winter 	2022		Fantasy	No		5.89	12
+Heroes of Might and Magic III	2024		Fantasy	Yes		5.80	6
+ISS Vanguard	2022		Sci-Fi	Yes		6.24	4
+The Last of Us: Escape the Dark	2024		Sci-Fi	Yes		5.714	1
+The Last Spell: The Board Game	2024		Fantasy	Yes		5.528	2
+Marvel United	2024		Fantasy	Yes		5.76	20
+Meeples & Monsters: Kickstarter Edition	2022		Other	No		5.78	1
+My City	2020		Other	No		7.242	1
+Mythic Battles: Ragnarök	2024		Fantasy	No		5.80	2
+Oathsworn: Into the Deepwood	2022		Fantasy	Yes		7.724	1
+Oros	2023		Fantasy	No		6.152	1
+Race for the Galaxy	2007		Sci-Fi	No		7.615	1
+Return to Dark Tower	2022		Fantasy	Yes		6.42	3
+Robinson Crusoe: Adventures on the Cursed Island	2024		Other	Yes		5.86	2
+Survive: Escape from Atlantis	1982		Other	No		7.109	1
+Sushi Go Party	2016		Other	No		7.216	1
+Theurgy	2022		Fantasy	No		5.587	1
+Tiny Epic Cthulhu: Cult of Chaos	2024		Fantasy	No		5.59	2
+Tiny Epic Dinosaurs	2020		Fantasy	No		6.612	1
+Tiny Epic Dungeons	2021		Fantasy	No		6.22	3
+Tiny Epic Vikings	2023		Fantasy	No		5.76	3
+Townsfolk Tussle	2022		Fantasy	Yes		5.91	3
+Vagrantsong	2022		Fantasy	Yes		6.01	3
+Vindication	2018		Fantasy	No		6.46	2
+Zombicide: Undead or Alive	2022		Fantasy	Yes		5.70	8
+Zombicide: White Death	2025		Fantasy	Yes		5.60	10

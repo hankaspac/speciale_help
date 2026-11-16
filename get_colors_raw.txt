@@ -1,0 +1,142 @@
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/area_gradient_ex.txt
+We have 0 classes.
+They have colors:  []
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/bubble_ex.txt
+Here is the legend description:  ="Symbol legend titled 'Annual Global Deaths' for size with values from 0 to 3,700,000"
+We have 4 classes.
+They have colors:  ['"black" f', '"black" f', '"black" f', '"black" f']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/bubble_legend.txt
+Here is the legend description:  ="Symbol legend titled 'Entity' for fill color with 10 values: Drought, Earthquake, Epidemic, Extreme temperature, Extreme weather, ending with Wildfire"
+Here is the legend description:  ="Symbol legend titled 'Annual Global Deaths' for size with values from 0 to 3,700,000"
+We have 14 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"', '"#54a24b"', '"#eeca3b"', '"#b279a2"', '"#ff9da6"', '"#9d755d"', '"#bab0ac"', '"black" f', '"black" f', '"black" f', '"black" f']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/diverging_point.txt
+Here is the legend description:  ="Gradient legend titled 'Rating Delta' for stroke color with values from âˆ’5 to 3"
+We have 0 classes.
+They have colors:  []
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/four_cols-lum65.txt
+Here is the legend description:  ="Symbol legend titled 'c' for fill color with 4 values: 1, 2, 3, 4"
+We have 4 classes.
+They have colors:  ['"#7AA1D1"', '"#E58644"', '"#F2797A"', '"#65AAA5"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/four_cols.txt
+Here is the legend description:  ="Symbol legend titled 'c' for fill color with 4 values: 1, 2, 3, 4"
+We have 4 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/line_chart.txt
+Here is the legend description:  ="Symbol legend titled 'symbol' for stroke color with 5 values: AAPL, AMZN, GOOG, IBM, MSFT"
+We have 5 classes.
+They have colors:  ['"white" s', '"white" s', '"white" s', '"white" s', '"white" s']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/map_categ.txt
+Here is the legend description:  ="Symbol legend titled 'digit' for fill color with 10 values: 0, 1, 2, 3, 4, ending with 9"
+We have 10 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"', '"#54a24b"', '"#eeca3b"', '"#b279a2"', '"#ff9da6"', '"#9d755d"', '"#bab0ac"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/stacked_bar.txt
+Here is the legend description:  ="Symbol legend titled 'c' for fill color with 4 values: 1, 2, 3, 4"
+We have 4 classes.
+They have colors:  ['"#7AA1D1"', '"#E58644"', '"#F2797A"', '"#65AAA5"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/stacked_bar_2_vals.txt
+Here is the legend description:  ="Symbol legend titled 'gender' for fill color with 2 values: Female, Male"
+We have 2 classes.
+They have colors:  ['"#675193"', '"#ca8861"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/svg_ex_1.txt
+Here is the legend description:  ="Symbol legend titled 'c' for shape and fill color with 1 value: 2"
+We have 1 classes.
+They have colors:  ['"#4c78a8"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/svg_ex_2.txt
+Here is the legend description:  ="Symbol legend titled 'c' for shape and fill color with 2 values: 1, 2"
+We have 2 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/svg_ex_3.txt
+Here is the legend description:  ="Symbol legend titled 'c' for shape and fill color with 3 values: 1, 2, 3"
+We have 3 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/svg_ex_4.txt
+Here is the legend description:  ="Symbol legend titled 'a' for shape and fill color with 4 values: B, C, D, E"
+We have 4 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/svg_ex_5.txt
+Here is the legend description:  ="Symbol legend titled 'c' for shape and fill color with 5 values: 1, 2, 3, 4, 5"
+We have 5 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"', '"#54a24b"']
+done
+
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/svg_ex_6.txt
+Here is the legend description:  ="Symbol legend titled 'c' for shape and fill color with 6 values: 1, 2, 3, 4, 5, 6"
+We have 6 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"', '"#54a24b"', '"#eeca3b"']
+done
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/svg_ex_heatmap.txt
+Here is the legend description:  ="Gradient legend titled 'Count of Records' for fill color with values from 1 to 24"
+We have 0 classes.
+They have colors:  []
+done
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/too_many_colors.txt
+Here is the legend description:  ="Symbol legend titled 'c' for fill color with 15 values: 1, 2, 3, 4, 5, ending with 15"
+We have 10 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"', '"#54a24b"', '"#eeca3b"', '"#b279a2"', '"#ff9da6"', '"#9d755d"', '"#bab0ac"']
+done
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/too_many_test.txt
+Here is the legend description:  ="Symbol legend titled 'c' for fill color with 15 values: 1, 2, 3, 4, 5, ending with 15"
+We have 10 classes.
+They have colors:  ['"#4c78a8"', '"#f58518"', '"#e45756"', '"#72b7b2"', '"#54a24b"', '"#eeca3b"', '"#b279a2"', '"#ff9da6"', '"#9d755d"', '"#bab0ac"']
+done
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/wrong_chart_maps_colors.txt
+Here is the legend description:  ="Symbol legend titled 'Flipper Length (mm) (binned)' for fill color with 13 values: 170 â€“ 175, 175 â€“ 180, 180 â€“ 185, 185 â€“ 190, 190 â€“ 195, ending with 230 â€“ 235"
+Here is the legend description:  ="Symbol legend titled 'Species' for shape with 3 values: Adelie, Chinstrap, Gentoo"
+We have 16 classes.
+They have colors:  ['"#f9fafa"', '"#ea9bc0"', '"#dd1e8a"', '"#732187"', '"#376eb7"', '"#01b3ec"', '"#16a978"', '"#18a42a"', '"#d3d60c"', '"#f9d80e"', '"#f0a011"', '"#c9660d"', '"#931e14"', '"black" f', '"black" f', '"black" f']
+done
+(venv) C:\Users\Bruger\Desktop\speciale>py get_colors_from_raw_svg.py
+The file:  input_svgs/wrong_map.txt
+Here is the legend description:  ="Symbol legend titled 'rate (binned)' for fill color with 13 values: null, 0 â€“ 0.027, 0.027 â€“ 0.054, 0.054 â€“ 0.081, 0.081 â€“ 0.108, ending with 0.297 â€“ 0.324"
+We have 13 classes.
+They have colors:  ['"#f9fafa"', '"#ea9bc0"', '"#dd1e8a"', '"#732187"', '"#376eb7"', '"#01b3ec"', '"#16a978"', '"#18a42a"', '"#d3d60c"', '"#f9d80e"', '"#f0a011"', '"#c9660d"', '"#931e14"']
+done

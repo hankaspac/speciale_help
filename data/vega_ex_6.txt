@@ -1,0 +1,170 @@
+Vega-Lite:
+
+{
+  "data": {
+    "values": [
+      {"a": "C", "b": 2, "c": 6}, {"a": "C", "b": 7, "c": 3}, {"a": "C", "b": 4, "c": 1},
+      {"a": "D", "b": 1, "c": 4}, {"a": "B", "b": 2, "c": 5}, {"a": "D", "b": 4, "c": 2},
+      {"a": "E", "b": 8, "c": 4}, {"a": "A", "b": 4, "c": 5}, {"a": "E", "b": 7, "c": 1},
+      {"a": "C", "b": 3, "c": 6}, {"a": "B", "b": 7, "c": 4}, {"a": "C", "b": 5, "c": 4},
+      {"a": "D", "b": 5, "c": 3}, {"a": "A", "b": 6, "c": 2}, {"a": "D", "b": 6, "c": 6},
+      {"a": "E", "b": 9, "c": 5}, {"a": "B", "b": 8, "c": 4}, {"a": "E", "b": 6, "c": 3}
+    ]
+  },
+  "mark": {"type": "point", "filled": true, "size": 300},
+    "encoding": {
+    "x": {"field": "a", "type": "nominal"},
+    "y": {"field": "b", "type": "quantitative"},
+    "color": {"field": "c", "type": "nominal"},
+    "shape": {"field": "c", "type": "nominal"}
+  }
+}
+
+
+
+Vega:
+
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "background": "white",
+  "padding": 5,
+  "height": 300,
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_0",
+      "values": [
+        {"a": "C", "b": 2, "c": 6},
+        {"a": "C", "b": 7, "c": 3},
+        {"a": "C", "b": 4, "c": 1},
+        {"a": "D", "b": 1, "c": 4},
+        {"a": "B", "b": 2, "c": 5},
+        {"a": "D", "b": 4, "c": 2},
+        {"a": "E", "b": 8, "c": 4},
+        {"a": "A", "b": 4, "c": 5},
+        {"a": "E", "b": 7, "c": 1},
+        {"a": "C", "b": 3, "c": 6},
+        {"a": "B", "b": 7, "c": 4},
+        {"a": "C", "b": 5, "c": 4},
+        {"a": "D", "b": 5, "c": 3},
+        {"a": "A", "b": 6, "c": 2},
+        {"a": "D", "b": 6, "c": 6},
+        {"a": "E", "b": 9, "c": 5},
+        {"a": "B", "b": 8, "c": 4},
+        {"a": "E", "b": 6, "c": 3}
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "source_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"b\"]) && isFinite(+datum[\"b\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "x_step", "value": 20},
+    {
+      "name": "width",
+      "update": "bandspace(domain('x').length, 1, 0.5) * x_step"
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "symbol",
+      "style": ["point"],
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0.7},
+          "size": {"value": 300},
+          "fill": {"scale": "color", "field": "c"},
+          "ariaRoleDescription": {"value": "point"},
+          "description": {
+            "signal": "\"a: \" + (isValid(datum[\"a\"]) ? isArray(datum[\"a\"]) ? join(datum[\"a\"], ' ') : datum[\"a\"] : \"\"+datum[\"a\"]) + \"; b: \" + (format(datum[\"b\"], \"\")) + \"; c: \" + (isValid(datum[\"c\"]) ? isArray(datum[\"c\"]) ? join(datum[\"c\"], ' ') : datum[\"c\"] : \"\"+datum[\"c\"])"
+          },
+          "x": {"scale": "x", "field": "a"},
+          "y": {"scale": "y", "field": "b"},
+          "shape": {"scale": "shape", "field": "c"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "point",
+      "domain": {"data": "data_0", "field": "a", "sort": true},
+      "range": {"step": {"signal": "x_step"}},
+      "padding": 0.5
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "b"},
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "data_0", "field": "c", "sort": true},
+      "range": "category"
+    },
+    {
+      "name": "shape",
+      "type": "ordinal",
+      "domain": {"data": "data_0", "field": "c", "sort": true},
+      "range": "symbol"
+    }
+  ],
+  "axes": [
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "a",
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "b",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "symbolType": "circle",
+      "title": "c",
+      "encode": {"symbols": {"update": {"opacity": {"value": 0.7}}}},
+      "shape": "shape"
+    }
+  ]
+}
